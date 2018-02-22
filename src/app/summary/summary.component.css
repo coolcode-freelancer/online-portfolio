@@ -1,0 +1,34 @@
+.container-fluid{
+  padding: 0;
+  height: 100%;
+}
+.jumbotron{
+  position: relative;
+  height: auto;
+  background: none;
+  text-align: center;
+  color: #fff;
+}
+#background {
+  height: 100%;
+  background-image: url('/assets/img/jumbotronBG.jpeg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center left;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#summary{
+  text-align: center;
+}

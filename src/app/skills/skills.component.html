@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <div class="text-center skillSet">
+    <img src="/assets/img/icons.png" class="rounded icons">
+    <p class="lead text-center display-4 skillTag"><strong>&lt;SkillSet&gt;</strong></p>
+  </div>
+  <div class="container" *ngFor="let skill of skills">
+    <div class="skillName" [style.backgroundColor]="skill.color">
+      <span>{{skill.name | uppercase}}</span>
+    </div>
+    <div class="skillBar" [style.width]="skill.level" [style.backgroundColor]="skill.color">
+    </div>
+    <div class="skillLevel">
+      {{skill.level}}
+    </div>
+  </div>
+  <p class="lead text-center display-4"><strong>&lt;&#47;SkillSet&gt;</strong></p>
+</div>

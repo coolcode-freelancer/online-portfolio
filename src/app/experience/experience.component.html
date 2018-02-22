@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="timeline">
+    <ul class="experience" >
+      <li class="card" *ngFor="let exp of experiences">
+        <h5>{{exp.title}}</h5>
+        <!-- <div class="arrowDown text-center"
+            [display]="exp.display"
+            (click)="toggle()"
+            [class.d-none]="display === true">
+            <i class="material-icons">keyboard_arrow_down</i>
+        </div> -->
+        <div class="details">
+            <!-- [class.d-none]="exp.display === false"> -->
+          <h6>{{exp.project}}</h6>
+          <p>{{exp.startDate}} - {{exp.endDate}}</p>
+          <ul>
+            <li *ngFor="let info of exp.description">
+              <p>{{info}}</p>
+            </li>
+          </ul>
+          <p><b>Applied Technologies: {{exp.appliedSkill}}</b></p>
+        </div>
+        <!-- <div class="arrowUp text-center"
+            (click)="toggle(exp.display)"
+            [class.d-none]="exp.display === false">
+            <i class="material-icons">keyboard_arrow_up</i>
+        </div> -->
+      </li>
+    </ul>
+  </div>
+</div>
