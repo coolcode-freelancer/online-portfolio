@@ -16,7 +16,7 @@ export class SummaryComponent implements OnInit {
   // jumbotronBG = 'assets/img/jumbotronBG.jpeg';
   qualifications = QUALIFICATIONS;
 
-  constructor() { }
+  constructor() { } 
 
   ngOnInit() {
   }
