@@ -1,4 +1,17 @@
-<app-nav></app-nav>
-<app-summary></app-summary>
-<app-experience></app-experience>
-<app-skills></app-skills>
+<nav class="navbar navbar-expand-lg navbar-light bg-light nav-bar-default sticky-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+    (click)="toggle()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse" id="navbarNav"
+        [class.collapse]="display === false">
+    <ul class="navbar-nav">
+        <li class="nav-item" *ngFor="let section of sections">
+          <a scrollTo scrollTargetSelector="#{{section.title}}" class="nav-link">{{section.title}}</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<app-summary id="Summary"></app-summary>
+<app-experience id="Experience"></app-experience>
+<app-skills id="Skills"></app-skills>

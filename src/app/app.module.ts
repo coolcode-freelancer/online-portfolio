@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ScrollToModule } from 'ng2-scroll-to';
 
 
 import { AppComponent } from './app.component';
@@ -22,7 +23,8 @@ import { VolunteerComponent } from './volunteer/volunteer.component';
     VolunteerComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    ScrollToModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

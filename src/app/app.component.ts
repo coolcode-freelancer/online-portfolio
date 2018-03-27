@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Section } from './section';
+import { SECTIONS } from './mock-sections';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  sections = SECTIONS;
+  display = false;
+  toggle(): void {
+    this.display = !this.display;
+  };
 }
