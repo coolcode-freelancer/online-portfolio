@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light nav-bar-default sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-bar-default sticky-top">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
     (click)="toggle()">
     <span class="navbar-toggler-icon"></span>
@@ -6,8 +6,17 @@
   <div class="navbar-collapse" id="navbarNav"
         [class.collapse]="display === false">
     <ul class="navbar-nav">
-        <li class="nav-item" *ngFor="let section of sections">
-          <a scrollTo scrollTargetSelector="#{{section.title}}" class="nav-link">{{section.title}}</a>
+        <li class="nav-item active" >
+          <a scrollTo scrollTargetSelector="#Summary" class="nav-link">Summary</a>
+        </li>
+        <li class="nav-item" >
+          <a scrollTo scrollTargetSelector="#Skills" class="nav-link">Skills</a>
+        </li>
+        <li class="nav-item" >
+          <a scrollTo scrollTargetSelector="#Experience" class="nav-link">Experience</a>
+        </li>
+        <li class="nav-item" >
+          <a scrollTo scrollTargetSelector="#ContactMe" class="nav-link">Contact Me</a>
         </li>
       </ul>
     </div>
@@ -15,3 +24,4 @@
 <app-summary id="Summary"></app-summary>
 <app-experience id="Experience"></app-experience>
 <app-skills id="Skills"></app-skills>
+<app-contacts id="ContactMe"></app-contacts>

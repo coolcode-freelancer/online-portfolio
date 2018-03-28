@@ -1,8 +1,7 @@
 export class Experience {
   project: string;
   title: string;
-  startDate: string;
-  endDate: string;
+  duration: string;
   description: string[];
   appliedSkill: string;
   display: boolean;

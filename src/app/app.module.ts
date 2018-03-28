@@ -8,8 +8,8 @@ import { NavComponent } from './nav/nav.component';
 import { SummaryComponent } from './summary/summary.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { EducationComponent } from './education/education.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
+import { ContactsComponent } from './contacts/contacts.component';
 
 
 @NgModule({
@@ -19,8 +19,8 @@ import { VolunteerComponent } from './volunteer/volunteer.component';
     SummaryComponent,
     SkillsComponent,
     ExperienceComponent,
-    EducationComponent,
-    VolunteerComponent
+    VolunteerComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,

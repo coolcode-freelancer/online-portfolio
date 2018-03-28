@@ -1,4 +1,4 @@
-import { Qualification } from './Qualification.ts';
+import { Qualification } from './Qualification';
 
 export const QUALIFICATIONS: Qualification[] = [
   { icon: 'web', description: 'Competitive working experience in web and software development'},

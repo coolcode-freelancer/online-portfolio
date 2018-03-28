@@ -11,11 +11,11 @@ export class ExperienceComponent implements OnInit {
 
   experiences = EXPERIENCES;
 
-  @Input display: boolean;
-
-  toggle(): void {
-    this.dispaly = !this.dispaly;
-  }
+  // @Input display: boolean;
+  //
+  // toggle(): void {
+  //   this.dispaly = !this.dispaly;
+  // }
 
 
   constructor() { }
