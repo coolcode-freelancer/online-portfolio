@@ -11,5 +11,5 @@ app.use(express.static(__dirname + '/dist'));
 // Start the app by listening on the default Heroku port
 app.listen(app.get('port'), function(err) {
   if(err) console.log(err);
-  console.log('Listening on port' + app.get('port'));
+  console.log('Listening on port ' + app.get('port'));
 });
