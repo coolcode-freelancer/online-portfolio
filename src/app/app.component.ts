@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Section } from './section';
+import { Section } from './Section';
 import { SECTIONS } from './mock-sections';
 
 @Component({
