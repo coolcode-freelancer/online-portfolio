@@ -4,7 +4,6 @@ import { ScrollToModule } from 'ng2-scroll-to';
 
 
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
 import { SummaryComponent } from './summary/summary.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
@@ -15,7 +14,6 @@ import { ContactsComponent } from './contacts/contacts.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent,
     SummaryComponent,
     SkillsComponent,
     ExperienceComponent,
