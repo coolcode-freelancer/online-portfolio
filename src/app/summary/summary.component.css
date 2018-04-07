@@ -15,8 +15,11 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center left;
-  -webkit-filter: blur(2px);
-  filter: blur(2px);
+  filter: blur(6px);
+	-webkit-filter: blur(6px);
+	-moz-filter: blur(6px);
+	-ms-filter: blur(6px);
+	-o-filter: blur(6px);
   top: 0;
   left: 0;
   position: absolute;

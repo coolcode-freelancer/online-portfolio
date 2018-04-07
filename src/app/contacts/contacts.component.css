@@ -1,0 +1,32 @@
+a {
+  width: 150px;
+  display: block;
+}
+.material-icons{
+  font-size: 18px;
+}
+span {
+  line-height: 1;
+  vertical-align: text-top;
+}
+img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.container-fluid{
+  padding: 0;
+  height: 100%;
+  color: #fff;
+  background-color: #343a40;
+}
+
+.jumbotron{
+  position: relative;
+  height: auto;
+  background: none;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  min-width: 300px;
+}
